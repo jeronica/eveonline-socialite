@@ -1,5 +1,5 @@
 {
-    "name": "nullx27/eveonline-socialite",
+    "name": "jeronica/eveonline-socialite",
     "description": "EveOnline SSO Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [
@@ -10,18 +10,18 @@
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "laravel/socialite": "3.*",
+        "laravel/socialite": "4.*",
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {
-            "nullx27\\Socialite\\EveOnline\\": "src/"
+            "jeronica\\Socialite\\EveOnline\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "nullx27\\Socialite\\EveOnline\\Providers\\EveOnlineServiceProvider"
+                "jeronica\\Socialite\\EveOnline\\Providers\\EveOnlineServiceProvider"
             ]
         }
     }

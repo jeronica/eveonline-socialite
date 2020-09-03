@@ -1,6 +1,6 @@
 <?php
 
-namespace nullx27\Socialite\EveOnline\Traits;
+namespace jeronica\Socialite\EveOnline\Traits;
 
 use Exception;
 use GuzzleHttp\Client;
